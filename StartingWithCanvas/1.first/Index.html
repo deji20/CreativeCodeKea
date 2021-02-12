@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative</title>
+</head>
+<body>
+    <canvas id="myCanvas" height="500" width="500" style="border: 1px solid;"></canvas>
+    
+    <button id="change">
+        <p id="presenter"></p>
+    </button>
+
+    <script>
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+        const btn = document.getElementById("change");
+        const presenter = document.getElementById("presenter");
+        const vertical = 0;
+
+        btn.addEventListener("click", )
+        presenter.innerHTML = canvas;
+
+        const changeDir = function(){
+            vertical = 10;
+            ctx.fillRect(vertical,0,30,30)
+        }
+    </script>
+</body>
+</html>
